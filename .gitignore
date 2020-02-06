@@ -1,0 +1,6 @@
+release/**
+releases/**
+
+*.pbo
+*.cache
+*.biprivatekey

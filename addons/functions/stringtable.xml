@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="GRAD">
+    <Package name="ROW">
+        <Key ID="STR_grad_row_functions_openRow">
+            <English>Open ROW</English>
+            <German>ROW öffnen</German>
+        </Key>
+        <Key ID="STR_grad_row_functions_closeRow">
+            <English>Close ROW</English>
+            <German>ROW schließen</German>
+        </Key>
+        <Key ID="STR_grad_row_functions_connectRow">
+            <English>Connect ROW</English>
+            <German>ROW verbinden</German>
+        </Key>
+        <Key ID="STR_grad_row_functions_disconnectRow">
+            <English>Disconnect ROW</English>
+            <German>ROW verbindung trennen</German>
+        </Key>
+        <Key ID="STR_grad_row_functions_setUpRocket">
+            <English>Set up rocket</English>
+            <German>Rackete aufstellen</German>
+        </Key>
+        <Key ID="STR_grad_row_functions_dismantleRocket">
+            <English>Dismantle rocket</English>
+            <German>Rackete abbauen</German>
+        </Key>
+        <Key ID="STR_grad_row_functions_connectRocket">
+            <English>Connect rocket</English>
+            <German>Rackete verbinden</German>
+        </Key>
+        <Key ID="STR_grad_row_functions_disconnectRocket">
+            <English>Disconnect rocket</English>
+            <German>Racketen verbindung trennen</German>
+        </Key>
+        <Key ID="STR_grad_row_functions_assembleParachute">
+            <English>Assemble parachute</English>
+            <German>Falschirm aufbauen</German>
+        </Key>
+        <Key ID="STR_grad_row_functions_disassembleParachute">
+            <English>Disassemble parachute</English>
+            <German>Racketen verbindung trennen</German>
+        </Key>
+        <Key ID="STR_grad_row_functions_pullsafetyPin">
+            <English>Pull safty pin</English>
+            <German>Sicherungsstift ziehen</German>
+        </Key>
+        <Key ID="STR_grad_row_functions_returnsafetyPin">
+            <English>Return safty pin</English>
+            <German>Sicherungsstift zurück stecken</German>
+        </Key>
+        <Key ID="STR_grad_row_functions_pullFiringPin">
+            <English>Pull firing pin</English>
+            <German>Zündungsstift ziehen</German>
+        </Key>
+        <Key ID="STR_grad_row_functions_pickUpConnector">
+            <English>Pick up connector</English>
+            <German>Connector aufheben</German>
+        </Key>
+        <Key ID="STR_grad_row_functions_disconnectConnector">
+            <English>Disconnect connector</English>
+            <German>Connector trennen</German>
+        </Key>
+        <Key ID="STR_grad_row_functions_dropRow">
+            <English>Place ROW</English>
+            <German>ROW platzieren</German>
+        </Key>
+        <Key ID="STR_grad_row_functions_takeRow">
+            <English>Take ROW</English>
+            <German>ROW nehmen</German>
+        </Key>
+        <Key ID="STR_grad_row_functions_TakeConnectorAction">
+            <English>Taking connector</English>
+            <German>Connector nehmen</German>
+        </Key>
+        <Key ID="STR_grad_row_functions_Hint_TooFar">
+            <English>Too Far</English>
+            <German>Zu weit Weg</German>
+        </Key>
+        <Key ID="STR_grad_row_functions_Connect">
+            <English>Connect</English>
+            <German>Verbinden</German>
+        </Key>
+        <Key ID="STR_grad_row_functions_drop">
+            <English>Drop</English>
+            <German>Fallen lassen</German>
+        </Key>
+        <Key ID="STR_grad_row_functions_ConnectAction">
+            <English>Connect Action</English>
+            <German>Connect Action</German>
+        </Key>
+        <Key ID="STR_grad_row_functions_returnConnector">
+            <English>Return connector</English>
+            <German>Connector zurücklegen</German>
+        </Key>
+        <Key ID="STR_grad_row_functions_returnAction">
+            <English>Returning connector</English>
+            <German>Connector zurücklegen</German>
+        </Key>
+    </Package>
+</Project>

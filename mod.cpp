@@ -1,0 +1,13 @@
+name = "GRAD ROW";
+author = "Gruppe Adler";
+picture = "Adler.paa";
+//actionName = "Website";
+//action = "https://github.com/gruppe-adler/grad_row/releases";
+description = "Gruppe Adler ROW";
+logo = "Adler.paa";
+logoOver = "Adler.paa";
+tooltip = "Gruppe Adler ROW";
+overview = "";
+overviewPicture = "Adler.paa";
+overviewText = "";
+overviewFootnote = "";
