@@ -1,5 +1,7 @@
 PREP(addRower);
 PREP(canRow);
+PREP(disengageEngine);
+PREP(engageEngine);
 PREP(handleDisconnect);
 PREP(handleMultiRow);
 PREP(row);

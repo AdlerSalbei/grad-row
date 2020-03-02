@@ -25,5 +25,13 @@
             <English>Roatate Right</English>
             <German>Rechts rotieren</German>
         </Key>
+        <Key ID="STR_grad_row_functions_disengageEngine">
+            <English>Disengage Engine</English>
+            <German>Moptor deaktivieren</German>
+        </Key>
+        <Key ID="STR_grad_row_functions_engageEngine">
+            <English>Engage Engine</English>
+            <German>Motor activieren</German>
+        </Key>
     </Package>
 </Project>
