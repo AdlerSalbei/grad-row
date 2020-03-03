@@ -45,7 +45,7 @@ if (_initiator) then {
                [_handle] call CBA_fnc_removePerFrameHandler;
             };
 
-		},
+        },
         0.1,
         [
             _boat,
