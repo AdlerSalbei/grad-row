@@ -14,8 +14,9 @@ if (_velocityChange isEqualTo []) then {
 
     _boat setVelocityModelSpace [_newX, _newY, 0];
 } else {
+    private _rowers =  _boat getVariable [QGVAR(rowers), 1];
 
-    if ([_boat] call FUNC(canRow) && {speed _boat < (10 + 2 * _boat getVariable [QGVAR(rowers), 1])}) then
+    if ([_boat] call FUNC(canRow) && {speed _boat < (10 + 2 * _rowers)}) then
     {
         //Play Sound
         //_boat say3D "Sound";

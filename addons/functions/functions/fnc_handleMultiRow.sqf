@@ -31,11 +31,11 @@ if (_initiator) then {
             params ["_args", "_handle"];
             _args params ["_boat"];
 
-            private __rowingPlayers = _boat getVariable [QGVAR(_rowingPlayers), []];
-            __rowingPlayers = __rowingPlayers - [objNull];
+            private _rowingPlayers = _boat getVariable [QGVAR(rowingPlayers), []];
+            _rowingPlayers = _rowingPlayers - [objNull];
 
-            if !(__rowingPlayers isEqualTo (_boat getVariable [QGVAR(_rowingPlayers), []])) then {
-               _boat setVariable [QGVAR(_rowingPlayers), __rowingPlayers, true];
+            if !(_rowingPlayers isEqualTo (_boat getVariable [QGVAR(rowingPlayers), []])) then {
+               _boat setVariable [QGVAR(rowingPlayers), _rowingPlayers, true];
             };
 
             if (
