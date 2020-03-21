@@ -1,4 +1,4 @@
-#include "script_component.hpp"
+#include <script_component.hpp>
 
 class CfgPatches {
     class ADDON {
@@ -13,3 +13,5 @@ class CfgPatches {
 };
 
 #include <CfgEventHandlers.hpp>
+
+#include <CfgVehicles.hpp>

@@ -1,4 +1,6 @@
 PREP(addRower);
+PREP(canActivateEngine);
+PREP(canDeactivateEngine);
 PREP(canRow);
 PREP(disengageEngine);
 PREP(engageEngine);

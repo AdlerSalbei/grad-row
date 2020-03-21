@@ -18,7 +18,7 @@
  *
  * Public: No
  */
-
+/*
 if !(isServer) exitWith {};
 
 params ["_boat", "_unit", ["_state", false], ["_initiator", false]];
@@ -44,12 +44,11 @@ if (_initiator) then {
             ) exitWith {
                [_handle] call CBA_fnc_removePerFrameHandler;
             };
-
-        },
-        0.1,
-        [
+		   },
+         0.1,
+         [
             _boat,
-        ]
+         ]
       ] call CBA_fnc_addPerFrameHandler;
 
       _boat setVariable [QGVAR(pfh), _handle];
@@ -61,3 +60,4 @@ if (_initiator) then {
 
    [_boat, _unit, _boat getVariable [QGVAR(progress), 0]] remoteExecCall [FUNC(addDigger), _unit, false];
 };
+*/

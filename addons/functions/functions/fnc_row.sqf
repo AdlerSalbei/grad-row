@@ -2,6 +2,8 @@
 
 params ["_boat", "_velocityChange"];
 
+systemChat "Row";
+
 if !([_boat] call FUNC(canRow)) exitWith {};
 
 private _currentVelocity = velocityModelSpace _boat;
