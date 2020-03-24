@@ -3,7 +3,7 @@
     QGVAR(stop), 
     localize LSTRING(stop), 
     {
-        [_this, [], ] call FUNC(row);
+        [_this, []] call FUNC(row);
     }, 
     {
 

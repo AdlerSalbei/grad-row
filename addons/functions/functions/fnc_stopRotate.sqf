@@ -1,3 +1,4 @@
+#include "script_component.hpp"
 params ["_boat"];
 
 private _pfhId = _boat getVariable [QGVAR(handle), nil];
