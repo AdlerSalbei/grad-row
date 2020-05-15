@@ -56,7 +56,7 @@ private _statement = {};
     };
 };
 
-private _action =[
+private _actions = [[
     [
         _actionName, 
         _name, 
@@ -67,6 +67,6 @@ private _action =[
     ] call ace_interact_menu_fnc_createAction,
     [],
     _unit
-];
+]];
 
-_action
+_actions
