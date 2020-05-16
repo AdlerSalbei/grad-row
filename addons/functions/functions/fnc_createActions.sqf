@@ -24,46 +24,36 @@ private _name = "";
 private _actionName = "";
 private _statement = {};
 
- if (_target getVariable [QGVAR(rowingEngaed), false]) then {
-    _actionName = QGVAR(engageEngine);
-    _name = localize LSTRING(engageEngine);
-    _statement = {
-        params ["_target","_unit"];
+switch (true) do {
+    case ([_target, _unit] call FUNC(canEngageEngine)) : {
+        _actionName = QGVAR(engageEngine);
+        _name = localize LSTRING(engageEngine);
+        _statement = {
+            params ["_target","_unit"];
 
-        [_target] call FUNC(engageEngine);
+            [_target] call FUNC(engageEngine);
+        };
     };
-    _condition = {
-        params ["_target","_unit"];
+    case ([_target, _unit] call FUNC(canDisengageEngine)) : {
+        _actionName = QGVAR(disengageEngine);
+        _name = localize LSTRING(disengageEngine);
+        _statement = {
+            params ["_target","_unit"];
 
-        private _return = [_target, _unit] call FUNC(engageEngine);
-
-        _return
-    };
-} else {
-    _actionName = QGVAR(disengageEngine);
-    _name = localize LSTRING(disengageEngine);
-    _statement = {
-        params ["_target","_unit"];
-
-        [_target] call FUNC(disengageEngine);
-    };
-    _condition = {
-        params ["_target","_unit"];
-
-       private _return = [_target, _unit] call FUNC(disengageEngine);
-
-       _return
+            [_target] call FUNC(disengageEngine);
+        };
     };
 };
+
+if (_statement isEqualTo {}) exitWith {};
 
 private _actions = [[
     [
         _actionName, 
         _name, 
         "", 
-        {}, 
-        _condition, 
-        _statement
+        _statement, 
+        {true}
     ] call ace_interact_menu_fnc_createAction,
     [],
     _unit

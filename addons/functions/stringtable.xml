@@ -33,5 +33,9 @@
             <English>Engage Engine</English>
             <German>Motor activieren</German>
         </Key>
+        <Key ID="STR_grad_row_functions_engine">
+            <English>Engine</English>
+            <German>Motor</German>
+        </Key>
     </Package>
 </Project>
